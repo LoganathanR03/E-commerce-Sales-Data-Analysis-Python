@@ -83,31 +83,6 @@ Top operational insights (quick actions)
 - Consider premium-service promotions or targeted offers for low-quantity/high-revenue SKUs to maximize margin.
 - Monitor slow-moving SKUs (e.g., Labels, Fasteners) for discounts, bundling or delisting.
 
-Reproducibility — how to run the notebook
------------------------------------------
-1. Create and activate an environment (example):
-   - python -m venv env
-   - source env/bin/activate  (macOS / Linux)
-   - env\Scripts\activate     (Windows)
-2. Install required packages:
-   - pip install pandas numpy matplotlib seaborn scipy jupyterlab
-   - (Optional: pip install plotly scikit-learn prophet)
-3. Place the dataset `E-commerce Sales.csv` in the notebook folder or update its path in the code.
-4. Open and run notebook:
-   - jupyter lab
-   - Or execute headless: `jupyter nbconvert --to html --execute <notebook>.ipynb --output report.html`
-
-Files & structure (recommended)
--------------------------------
-- data/
-  - raw/E-commerce Sales.csv
-- notebooks/
-  - E-commerce-sales-analysis.ipynb
-- results/
-  - figures/, reports/
-- README.md
-- requirements.txt
-
 Code & analysis notes (important snippets)
 -----------------------------------------
 - Date parsing & feature creation:
@@ -130,6 +105,12 @@ The notebook includes:
 - Market-level horizontal bar charts
 - Boxplots and histograms to spot distributions and outliers
 - Multi-panel summary figures combining related plots for reporting
+
+## 📸 Dashboard Preview
+
+![Dashboard](monetary analysis dashboard.png)
+![Dashboard](market_analysis.png)
+![Dashboard](product analysis dashboard.png)
 
 Business recommendations (prioritized)
 --------------------------------------
@@ -154,12 +135,3 @@ Next steps / extensions
 - Build sales forecasts (monthly) with confidence intervals and evaluate model performance.
 - Create an interactive dashboard (Streamlit / Dash) for non-technical stakeholders.
 
-Acknowledgements & contact
---------------------------
-- Analysis built with pandas, numpy, matplotlib, seaborn, and scipy.
-- Maintainer: (Add your name and contact / GitHub handle)
-- If you want the README tailored to additional results or further narrative text extracted directly from the notebook (plots and exact textual summaries), paste the notebook file or grant access and I will update the README with screenshot links and more precise takeaways.
-
-License
--------
-Add your preferred license (MIT, Apache-2.0, etc.) to the repo.
