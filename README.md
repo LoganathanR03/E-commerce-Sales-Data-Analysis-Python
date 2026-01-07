@@ -108,9 +108,9 @@ The notebook includes:
 
 ## 📸 Dashboard Preview
 
-![Dashboard](monetary analysis dashboard.png)
+![Dashboard](monetary_analysis_dashboard.png)
 ![Dashboard](market_analysis.png)
-![Dashboard](product analysis dashboard.png)
+![Dashboard](product_analysis_dashboard.png)
 
 Business recommendations (prioritized)
 --------------------------------------
