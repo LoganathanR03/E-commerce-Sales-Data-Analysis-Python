@@ -1,0 +1,49 @@
+Row ID - unique column    
+
+Order ID - no unique feature, same order id for multiple row id's, on one transcation, the purchased multiple 
+products, thats why they have been entered multiple times
+
+Order Date - date when the order what made(2011-2014)
+
+Ship Date - date when the shipping was made
+
+Ship Mode - mode of shipping of the product. ex['Same Day', 'Second Class', 'First Class', 'Standard Class']
+
+Customer ID - uniue id for each customers
+
+Customer Name - name of the customers
+
+Segment- segment that the product related to. ex['Consumer', 'Corporate', 'Home Office']
+
+City - city where the shipping was placed            
+
+State - State where the shipping was placed           
+
+Country - Country where the shipping was placed         
+
+Postal Code - Postal code where the shipping was placed     
+
+Market - market which the product is related to. ex['US', 'APAC', 'EU', 'Africa', 'EMEA', 'LATAM', 'Canada']
+
+Region - ['East', 'Oceania', 'Central', 'Africa', 'West', 'South', 'Central Asia', 'EMEA', 'North Asia', 
+'North', 'Caribbean', 'Southeast Asia', 'Canada']  
+
+Product ID      
+
+Category        
+
+Sub-Category    
+
+Product Name    
+
+Sales           
+
+Quantity        
+
+Discount        
+
+Profit          
+
+Shipping Cost   
+
+Order Priorit
